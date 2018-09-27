@@ -1,0 +1,10 @@
+Transmission_rate,_beta
+			1.4247
+Recovery_rate,_gamma
+			0.14286
+Initial_Susceptibles
+			0.999999
+Initial_Infecteds
+			0.000001
+Run_until_time
+			70

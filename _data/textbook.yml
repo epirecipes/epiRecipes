@@ -1,0 +1,158 @@
+### PROGRAMATICALLY GENERATED, DO NOT MODIFY
+chapters:
+- class: level_0
+  title: Home
+  url: /
+- children:
+  - class: level_1
+    title: SIR model
+    url: chapters/sir/intro
+  - class: level_2
+    title: Python using SciPy
+    url: chapters/sir/python
+  - class: level_2
+    title: R using deSolve
+    url: chapters/sir/r_desolve
+  - class: level_2
+    title: R using odin
+    url: chapters/sir/r_odin
+  - class: level_2
+    title: Julia
+    url: chapters/sir/julia
+  - class: level_2
+    title: Octave
+    url: chapters/sir/octave
+  - class: level_2
+    title: Scilab
+    url: chapters/sir/scilab
+  - class: level_2
+    title: C++
+    url: chapters/sir/cpp
+  - class: level_2
+    title: xppaut
+    url: chapters/sir/xpp
+  - class: level_2
+    title: VFGEN
+    url: chapters/sir/vfgen
+  - class: level_2
+    title: Javascript
+    url: chapters/sir/js
+  - class: level_2
+    title: Javascript using Observable
+    url: chapters/sir/js_observable
+  class: level_0
+  title: Simple deterministic models
+  url: chapters/simple
+- children:
+  - class: level_1
+    title: Continuous time
+    url: chapters/sir-stochastic-discretestate-continuoustime/intro
+  - class: level_2
+    title: R
+    url: chapters/sir-stochastic-discretestate-continuoustime/r
+  - class: level_2
+    title: R using GillespieSSA
+    url: chapters/sir-stochastic-discretestate-continuoustime/r-gillespiessa
+  - class: level_2
+    title: R using Rcpp
+    url: chapters/sir-stochastic-discretestate-continuoustime/r-rcpp
+  - class: level_2
+    title: Julia
+    url: chapters/sir-stochastic-discretestate-continuoustime/julia
+  - class: level_1
+    title: Discrete time
+    url: chapters/sir-stochastic-discretestate-discretetime/intro
+  - class: level_2
+    title: R using POMP
+    url: chapters/sir-stochastic-discretestate-discretetime/r_pomp
+  - class: level_2
+    title: R using LibBi
+    url: chapters/sir-stochastic-discretestate-discretetime/r_rbi
+  - class: level_2
+    title: Julia
+    url: chapters/sir-stochastic-discretestate-discretetime/julia
+  class: level_0
+  title: Simple stochastic models
+  url: chapters/stochastic
+- children:
+  - class: level_1
+    title: Exact recursive expressions
+    url: chapters/blackross2015/intro
+  - class: level_2
+    title: Original Matlab code
+    url: chapters/blackross2015/matlab
+  - class: level_2
+    title: Julia
+    url: chapters/blackross2015/julia
+  - class: level_2
+    title: Octave
+    url: chapters/blackross2015/octave
+  - class: level_2
+    title: Scilab
+    url: chapters/blackross2015/scilab
+  class: level_0
+  title: Final size of an epidemic
+  url: chapters/finalsize
+- children:
+  - class: level_1
+    title: Seasonally forced deterministic model
+    url: chapters/sirforced/intro
+  - class: level_2
+    title: R
+    url: chapters/sirforced/r
+  class: level_0
+  title: Time-varying parameters
+  url: chapters/timevarying
+- children:
+  - class: level_1
+    title: An edge based SIR model on a configuration network
+    url: chapters/sircn/intro
+  - class: level_2
+    title: R
+    url: chapters/sircn/r
+  class: level_0
+  title: Network models
+  url: chapters/network
+- children:
+  - class: level_1
+    title: Acute HIV infection
+    url: chapters/acutehiv/intro
+  - class: level_2
+    title: R
+    url: chapters/acutehiv/r
+  - class: level_1
+    title: A model of HIV with two risk groups
+    url: chapters/diffrisk/intro
+  - class: level_2
+    title: R
+    url: chapters/diffrisk/r
+  class: level_0
+  title: Applications
+  url: chapters/applications
+- children:
+  - class: level_1
+    title: Program 2.1
+    url: chapters/kr08/2_1/intro
+  - class: level_2
+    title: Original C
+    url: chapters/kr08/2_1/c_original
+  - class: level_2
+    title: Original Fortran
+    url: chapters/kr08/2_1/fortran_original
+  - class: level_2
+    title: Original Python
+    url: chapters/kr08/2_1/python_original
+  - class: level_2
+    title: Original Matlab/Octave
+    url: chapters/kr08/2_1/octave_original
+  class: level_0
+  title: Keeling and Rohani 2008
+  url: chapters/kr08
+- children:
+  - class: level_1
+    title: Style guide for notebooks
+    url: chapters/style
+  class: level_0
+  title: Appendices
+  url: chapters/appendices
+first_chapter_url: chapters/simple
