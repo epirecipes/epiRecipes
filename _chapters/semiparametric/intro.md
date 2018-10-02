@@ -2,8 +2,8 @@
 title: 'Semiparametric SIR model'
 permalink: 'chapters/semiparametric/intro'
 previouschapter:
-  url: chapters/sirforced/r
-  title: 'R'
+  url: chapters/sirforced/js_observable
+  title: 'Javascript using Observable'
 nextchapter:
   url: chapters/semiparametric/julia
   title: 'Julia'

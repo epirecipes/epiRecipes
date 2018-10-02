@@ -1,0 +1,9 @@
+{
+  "name": "sir-on-a-configuration-network",
+  "main": "sir-on-a-configuration-network.js",
+  "version": "94.0.0",
+  "author": {
+    "name": "epichef",
+    "url": "https://beta.observablehq.com/@epichef"
+  }
+}

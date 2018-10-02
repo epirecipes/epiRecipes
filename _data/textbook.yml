@@ -106,6 +106,9 @@ chapters:
   - class: level_2
     title: R
     url: chapters/sirforced/r
+  - class: level_2
+    title: Javascript using Observable
+    url: chapters/sirforced/js_observable
   - class: level_1
     title: Semiparametric SIR model
     url: chapters/semiparametric/intro
@@ -122,6 +125,9 @@ chapters:
   - class: level_2
     title: R
     url: chapters/sircn/r
+  - class: level_2
+    title: Javascript using Observable
+    url: chapters/sircn/js_observable
   class: level_0
   title: Network models
   url: chapters/network

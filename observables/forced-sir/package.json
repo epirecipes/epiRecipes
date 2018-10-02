@@ -1,0 +1,9 @@
+{
+  "name": "forced-sir",
+  "main": "forced-sir.js",
+  "version": "132.0.0",
+  "author": {
+    "name": "epichef",
+    "url": "https://beta.observablehq.com/@epichef"
+  }
+}

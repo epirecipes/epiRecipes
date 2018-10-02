@@ -6,8 +6,8 @@ previouschapter:
   url: chapters/sirforced/intro
   title: 'Seasonally forced deterministic model'
 nextchapter:
-  url: chapters/semiparametric/intro
-  title: 'Semiparametric SIR model'
+  url: chapters/sirforced/js_observable
+  title: 'Javascript using Observable'
 redirect_from:
   - 'chapters/sirforced/r'
 ---

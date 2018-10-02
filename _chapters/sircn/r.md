@@ -6,8 +6,8 @@ previouschapter:
   url: chapters/sircn/intro
   title: 'An edge based SIR model on a configuration network'
 nextchapter:
-  url: chapters/applications
-  title: 'Applications'
+  url: chapters/sircn/js_observable
+  title: 'Javascript using Observable'
 redirect_from:
   - 'chapters/sircn/r'
 ---
