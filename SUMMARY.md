@@ -13,6 +13,8 @@
     * [VFGEN](notebooks/sir/vfgen.ipynb)
     * [Javascript](notebooks/sir/js.ipynb)
     * [Javascript using Observable](notebooks/sir/js_observable.md)
+  * [SIS model](notebooks/sis/intro.md)
+    * [Javascript using Observable](notebooks/sis/js_observable.md)
 * [Simple stochastic models](notebooks/stochastic.md)
   * [Continuous time](notebooks/sir-stochastic-discretestate-continuoustime/intro.md)
     * [R](notebooks/sir-stochastic-discretestate-continuoustime/r.ipynb)

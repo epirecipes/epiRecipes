@@ -2,7 +2,7 @@
 title: 'Simple stochastic models'
 permalink: 'chapters/stochastic'
 previouschapter:
-  url: chapters/sir/js_observable
+  url: chapters/sis/js_observable
   title: 'Javascript using Observable'
 nextchapter:
   url: chapters/sir-stochastic-discretestate-continuoustime/intro

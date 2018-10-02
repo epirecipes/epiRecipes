@@ -1,0 +1,9 @@
+{
+  "name": "sis-model",
+  "main": "sis-model.js",
+  "version": "483.0.0",
+  "author": {
+    "name": "epichef",
+    "url": "https://beta.observablehq.com/@epichef"
+  }
+}

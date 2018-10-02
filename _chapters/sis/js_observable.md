@@ -1,18 +1,21 @@
 ---
 title: 'Javascript using Observable'
-permalink: 'chapters/sir/js_observable'
+permalink: 'chapters/sis/js_observable'
 previouschapter:
-  url: chapters/sir/js
-  title: 'Javascript'
-nextchapter:
   url: chapters/sis/intro
   title: 'SIS model'
+nextchapter:
+  url: chapters/stochastic
+  title: 'Simple stochastic models'
 redirect_from:
-  - 'chapters/sir/js-observable'
+  - 'chapters/sis/js-observable'
 ---
-## SIR model using Javascript
+## SIS model using Javascript
 
-[Link to Observable notebook](http://beta.observablehq.com/@epichef/deterministic-sir-model)
+Author: Emma Southall @ersouthall
+Date: 2018-10-02
+
+[Link to Observable notebook](http://beta.observablehq.com/@epichef/sis-model)
 
 <script type="application/javascript">
 
@@ -59,4 +62,4 @@ function importParentStyles() {
 
 </script>
 
-<iframe src="../../observables/deterministic-sir-model/index.html" onload="this.width=screen.width;this.height=screen.height;" frameBorder="0" scrolling="no"></iframe>
+<iframe src="../../observables/deterministic-sis-model/index.html" onload="this.width=screen.width;this.height=screen.height;" frameBorder="0" scrolling="no"></iframe>
