@@ -100,6 +100,12 @@ chapters:
   - class: level_2
     title: R
     url: chapters/sirforced/r
+  - class: level_1
+    title: Semiparametric SIR model
+    url: chapters/semiparametric/intro
+  - class: level_2
+    title: Julia
+    url: chapters/semiparametric/julia
   class: level_0
   title: Time-varying parameters
   url: chapters/timevarying

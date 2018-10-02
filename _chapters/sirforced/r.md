@@ -6,8 +6,8 @@ previouschapter:
   url: chapters/sirforced/intro
   title: 'Seasonally forced deterministic model'
 nextchapter:
-  url: chapters/network
-  title: 'Network models'
+  url: chapters/semiparametric/intro
+  title: 'Semiparametric SIR model'
 redirect_from:
   - 'chapters/sirforced/r'
 ---

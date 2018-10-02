@@ -32,6 +32,8 @@
 * [Time-varying parameters](notebooks/timevarying.md)
   * [Seasonally forced deterministic model](notebooks/sirforced/intro.md)
     * [R](notebooks/sirforced/r.ipynb)
+  * [Semiparametric SIR model](notebooks/semiparametric/intro.md)
+    * [Julia](notebooks/semiparametric/julia.ipynb)
 * [Network models](notebooks/network.md)
   * [An edge based SIR model on a configuration network](notebooks/sircn/intro.md)
     * [R](notebooks/sircn/r.ipynb)    
