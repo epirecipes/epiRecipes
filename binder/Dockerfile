@@ -6,3 +6,5 @@ ENV DEBIAN_FRONTEND noninteractive
 
 USER jovyan
 
+RUN cp ./notebooks ${HOME}/notebooks
+
