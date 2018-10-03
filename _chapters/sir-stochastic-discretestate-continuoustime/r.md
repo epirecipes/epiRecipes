@@ -4,7 +4,7 @@ title: 'R'
 permalink: 'chapters/sir-stochastic-discretestate-continuoustime/r'
 previouschapter:
   url: chapters/sir-stochastic-discretestate-continuoustime/intro
-  title: 'Continuous time'
+  title: 'Continuous time SIR'
 nextchapter:
   url: chapters/sir-stochastic-discretestate-continuoustime/r-gillespiessa
   title: 'R using GillespieSSA'

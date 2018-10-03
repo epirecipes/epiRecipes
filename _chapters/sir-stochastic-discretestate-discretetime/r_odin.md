@@ -4,7 +4,7 @@ title: 'R using odin'
 permalink: 'chapters/sir-stochastic-discretestate-discretetime/r_odin'
 previouschapter:
   url: chapters/sir-stochastic-discretestate-discretetime/intro
-  title: 'Discrete time'
+  title: 'Discrete time SIR'
 nextchapter:
   url: chapters/sir-stochastic-discretestate-discretetime/r_pomp
   title: 'R using POMP'

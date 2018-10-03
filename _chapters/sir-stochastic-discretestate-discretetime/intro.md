@@ -1,5 +1,5 @@
 ---
-title: 'Discrete time'
+title: 'Discrete time SIR'
 permalink: 'chapters/sir-stochastic-discretestate-discretetime/intro'
 previouschapter:
   url: chapters/sir-stochastic-discretestate-continuoustime/julia

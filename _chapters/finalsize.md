@@ -2,8 +2,8 @@
 title: 'Final size of an epidemic'
 permalink: 'chapters/finalsize'
 previouschapter:
-  url: chapters/sir-stochastic-discretestate-discretetime/julia
-  title: 'Julia'
+  url: chapters/seird-stochastic-discretestate-discretetime/r_odin
+  title: 'R using odin'
 nextchapter:
   url: chapters/blackross2015/intro
   title: 'Exact recursive expressions'

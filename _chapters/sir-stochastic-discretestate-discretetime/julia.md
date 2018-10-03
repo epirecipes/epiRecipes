@@ -6,8 +6,8 @@ previouschapter:
   url: chapters/sir-stochastic-discretestate-discretetime/r_rbi
   title: 'R using LibBi'
 nextchapter:
-  url: chapters/finalsize
-  title: 'Final size of an epidemic'
+  url: chapters/seird-stochastic-discretestate-discretetime/intro
+  title: 'Discrete time SEIRD'
 redirect_from:
   - 'chapters/sir-stochastic-discretestate-discretetime/julia'
 ---

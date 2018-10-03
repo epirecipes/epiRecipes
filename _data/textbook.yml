@@ -51,7 +51,7 @@ chapters:
   url: chapters/simple
 - children:
   - class: level_1
-    title: Continuous time
+    title: Continuous time SIR
     url: chapters/sir-stochastic-discretestate-continuoustime/intro
   - class: level_2
     title: R
@@ -66,7 +66,7 @@ chapters:
     title: Julia
     url: chapters/sir-stochastic-discretestate-continuoustime/julia
   - class: level_1
-    title: Discrete time
+    title: Discrete time SIR
     url: chapters/sir-stochastic-discretestate-discretetime/intro
   - class: level_2
     title: R using odin
@@ -80,6 +80,12 @@ chapters:
   - class: level_2
     title: Julia
     url: chapters/sir-stochastic-discretestate-discretetime/julia
+  - class: level_1
+    title: Discrete time SEIRD
+    url: chapters/seird-stochastic-discretestate-discretetime/intro
+  - class: level_2
+    title: R using odin
+    url: chapters/seird-stochastic-discretestate-discretetime/r_odin
   class: level_0
   title: Simple stochastic models
   url: chapters/stochastic

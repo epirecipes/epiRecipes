@@ -7,7 +7,7 @@ previouschapter:
   title: 'R using Rcpp'
 nextchapter:
   url: chapters/sir-stochastic-discretestate-discretetime/intro
-  title: 'Discrete time'
+  title: 'Discrete time SIR'
 redirect_from:
   - 'chapters/sir-stochastic-discretestate-continuoustime/julia'
 ---

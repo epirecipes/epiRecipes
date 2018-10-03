@@ -6,7 +6,7 @@ previouschapter:
   title: 'Javascript using Observable'
 nextchapter:
   url: chapters/sir-stochastic-discretestate-continuoustime/intro
-  title: 'Continuous time'
+  title: 'Continuous time SIR'
 redirect_from:
   - 'chapters/stochastic'
 ---
