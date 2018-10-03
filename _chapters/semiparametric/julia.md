@@ -265,16 +265,14 @@ u: 550-element Array{Array{Float64,1},1}:
 ```julia
 ## Plotting for BM model 
 using Plots
-gr(fmt = :png)
 # Plot evolution of number infected
 plot( spsir_bm_sol , vars = 2 )
-
 ```
 
 
 
 
-![png](../../images/chapters/semiparametric/julia_7_0.png)
+![svg](../../images/chapters/semiparametric/julia_7_0.svg)
 
 
 
@@ -288,7 +286,7 @@ plot( spsir_bm_sol , vars = 4 )
 
 
 
-![png](../../images/chapters/semiparametric/julia_8_0.png)
+![svg](../../images/chapters/semiparametric/julia_8_0.svg)
 
 
 
@@ -304,7 +302,7 @@ plot( spsir_logbm_drift_sol , vars = 2 )
 
 
 
-![png](../../images/chapters/semiparametric/julia_9_0.png)
+![svg](../../images/chapters/semiparametric/julia_9_0.svg)
 
 
 
@@ -318,6 +316,6 @@ plot( spsir_logbm_drift_sol , vars = 4 )
 
 
 
-![png](../../images/chapters/semiparametric/julia_10_0.png)
+![svg](../../images/chapters/semiparametric/julia_10_0.svg)
 
 

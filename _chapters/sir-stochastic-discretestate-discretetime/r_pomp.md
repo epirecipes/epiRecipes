@@ -3,8 +3,8 @@ interact_link: notebooks/sir-stochastic-discretestate-discretetime/r_pomp.ipynb
 title: 'R using POMP'
 permalink: 'chapters/sir-stochastic-discretestate-discretetime/r_pomp'
 previouschapter:
-  url: chapters/sir-stochastic-discretestate-discretetime/intro
-  title: 'Discrete time'
+  url: chapters/sir-stochastic-discretestate-discretetime/r_odin
+  title: 'R using odin'
 nextchapter:
   url: chapters/sir-stochastic-discretestate-discretetime/r_rbi
   title: 'R using LibBi'

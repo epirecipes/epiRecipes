@@ -6,8 +6,8 @@ previouschapter:
   url: chapters/blackross2015/octave
   title: 'Octave'
 nextchapter:
-  url: chapters/timevarying
-  title: 'Time-varying parameters'
+  url: chapters/blackross2015/r
+  title: 'R'
 redirect_from:
   - 'chapters/blackross2015/scilab'
 ---

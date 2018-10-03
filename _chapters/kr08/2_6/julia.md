@@ -6,8 +6,8 @@ previouschapter:
   url: chapters/kr08/2_6/r_desolve
   title: 'R using deSolve'
 nextchapter:
-  url: chapters/appendices
-  title: 'Appendices'
+  url: chapters/kr08/3_1/intro
+  title: 'Program 3.1: SIS with risk groups'
 redirect_from:
   - 'chapters/kr08/2-6/julia'
 ---

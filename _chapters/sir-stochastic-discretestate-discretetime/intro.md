@@ -5,8 +5,8 @@ previouschapter:
   url: chapters/sir-stochastic-discretestate-continuoustime/julia
   title: 'Julia'
 nextchapter:
-  url: chapters/sir-stochastic-discretestate-discretetime/r_pomp
-  title: 'R using POMP'
+  url: chapters/sir-stochastic-discretestate-discretetime/r_odin
+  title: 'R using odin'
 redirect_from:
   - 'chapters/sir-stochastic-discretestate-discretetime/intro'
 ---

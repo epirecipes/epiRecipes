@@ -69,6 +69,9 @@ chapters:
     title: Discrete time
     url: chapters/sir-stochastic-discretestate-discretetime/intro
   - class: level_2
+    title: R using odin
+    url: chapters/sir-stochastic-discretestate-discretetime/r_odin
+  - class: level_2
     title: R using POMP
     url: chapters/sir-stochastic-discretestate-discretetime/r_pomp
   - class: level_2
@@ -96,6 +99,9 @@ chapters:
   - class: level_2
     title: Scilab
     url: chapters/blackross2015/scilab
+  - class: level_2
+    title: R
+    url: chapters/blackross2015/r
   class: level_0
   title: Final size of an epidemic
   url: chapters/finalsize
@@ -172,6 +178,27 @@ chapters:
   - class: level_2
     title: Julia
     url: chapters/kr08/2_6/julia
+  - class: level_1
+    title: 'Program 3.1: SIS with risk groups'
+    url: chapters/kr08/3_1/intro
+  - class: level_2
+    title: R using deSolve
+    url: chapters/kr08/3_1/r_desolve
+  - class: level_2
+    title: Julia
+    url: chapters/kr08/3_1/julia
+  - class: level_1
+    title: 'Program 3.2: SIS with m risk groups'
+    url: chapters/kr08/3_2/intro
+  - class: level_2
+    title: R using deSolve
+    url: chapters/kr08/3_2/r_desolve
+  - class: level_1
+    title: 'Program 3.4: Age structured SEIR'
+    url: chapters/kr08/3_4/intro
+  - class: level_2
+    title: R using deSolve
+    url: chapters/kr08/3_4/r_desolve
   class: level_0
   title: Keeling and Rohani 2008
   url: chapters/kr08
