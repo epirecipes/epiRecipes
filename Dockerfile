@@ -6,6 +6,7 @@ ENV DEBIAN_FRONTEND noninteractive
 
 USER jovyan
 
+RUN pwd
 RUN cd $HOME && \
     git clone https://github.com/epirecipes/epicookbook && \
     mv epicookbook/notebooks ${HOME}/notebooks && \
