@@ -41,6 +41,7 @@
     * [Javascript using Observable](notebooks/sirforced/js_observable.md)
   * [Semiparametric SIR model](notebooks/semiparametric/intro.md)
     * [Julia](notebooks/semiparametric/julia.ipynb)
+    * [R using pomp](notebooks/semiparametric/r_pomp.ipynb)
 * [Network models](notebooks/network.md)
   * [An edge based SIR model on a configuration network](notebooks/sircn/intro.md)
     * [R](notebooks/sircn/r.ipynb)

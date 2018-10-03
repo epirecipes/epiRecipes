@@ -6,8 +6,8 @@ previouschapter:
   url: chapters/semiparametric/intro
   title: 'Semiparametric SIR model'
 nextchapter:
-  url: chapters/network
-  title: 'Network models'
+  url: chapters/semiparametric/r_pomp
+  title: 'R using pomp'
 redirect_from:
   - 'chapters/semiparametric/julia'
 ---

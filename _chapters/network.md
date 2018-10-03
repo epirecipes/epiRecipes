@@ -2,8 +2,8 @@
 title: 'Network models'
 permalink: 'chapters/network'
 previouschapter:
-  url: chapters/semiparametric/julia
-  title: 'Julia'
+  url: chapters/semiparametric/r_pomp
+  title: 'R using pomp'
 nextchapter:
   url: chapters/sircn/intro
   title: 'An edge based SIR model on a configuration network'
