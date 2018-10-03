@@ -6,8 +6,8 @@ previouschapter:
   url: chapters/kr08/2_1/python_original
   title: 'Original Python'
 nextchapter:
-  url: chapters/appendices
-  title: 'Appendices'
+  url: chapters/kr08/2_6/intro
+  title: 'Program 2.6: SEIR'
 redirect_from:
   - 'chapters/kr08/2-1/octave-original'
 ---

@@ -163,6 +163,15 @@ chapters:
   - class: level_2
     title: Original Matlab/Octave
     url: chapters/kr08/2_1/octave_original
+  - class: level_1
+    title: 'Program 2.6: SEIR'
+    url: chapters/kr08/2_6/intro
+  - class: level_2
+    title: R using deSolve
+    url: chapters/kr08/2_6/r_desolve
+  - class: level_2
+    title: Julia
+    url: chapters/kr08/2_6/julia
   class: level_0
   title: Keeling and Rohani 2008
   url: chapters/kr08
