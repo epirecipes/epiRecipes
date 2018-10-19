@@ -6,8 +6,8 @@ previouschapter:
   url: chapters/semiparametric/julia
   title: 'Julia'
 nextchapter:
-  url: chapters/network
-  title: 'Network models'
+  url: chapters/metapopulation
+  title: 'Metapopulation models'
 redirect_from:
   - 'chapters/semiparametric/r-pomp'
 ---

@@ -2,8 +2,8 @@
 title: 'SIRS dynamics in a large population of households'
 permalink: 'chapters/ross2010/intro'
 previouschapter:
-  url: chapters/household
-  title: 'Household models'
+  url: chapters/lloydjansen2004/r_odin
+  title: 'R using odin'
 nextchapter:
   url: chapters/ross2010/julia
   title: 'Julia'

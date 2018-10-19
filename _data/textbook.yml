@@ -204,14 +204,20 @@ chapters:
   url: chapters/timevarying
 - children:
   - class: level_1
+    title: Deterministic SEIR
+    url: chapters/lloydjansen2004/intro
+  - class: level_2
+    title: R using odin
+    url: chapters/lloydjansen2004/r_odin
+  - class: level_1
     title: SIRS dynamics in a large population of households
     url: chapters/ross2010/intro
   - class: level_2
     title: Julia
     url: chapters/ross2010/julia
   class: level_0
-  title: Household models
-  url: chapters/household
+  title: Metapopulation models
+  url: chapters/metapopulation
 - children:
   - class: level_1
     title: An edge based SIR model on a configuration network
