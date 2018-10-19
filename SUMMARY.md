@@ -66,6 +66,8 @@
   * [A deterministic SEIR model of Ebola](notebooks/khan2015/intro.md)
     * [Python using PyGOM](notebooks/khan2015/python_pygom.ipynb)
     * [Python using SciPy](notebooks/khan2015/python_scipy.ipynb)
+  * [A stochastic, seasonal, discrete-time model of rotavirus](notebooks/seasonalsirs/intro.md)
+    * [R using POMP](notebooks/seasonalsirs/r_pomp.ipynb)
 * [Keeling and Rohani 2008](notebooks/kr08.md)
   * [Program 2.1](notebooks/kr08/2_1/intro.md)
     * [Original C](notebooks/kr08/2_1/c_original.ipynb)

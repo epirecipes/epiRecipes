@@ -206,6 +206,12 @@ chapters:
   - class: level_2
     title: Python using SciPy
     url: chapters/khan2015/python_scipy
+  - class: level_1
+    title: A stochastic, seasonal, discrete-time model of rotavirus
+    url: chapters/seasonalsirs/intro
+  - class: level_2
+    title: R using POMP
+    url: chapters/seasonalsirs/r_pomp
   class: level_0
   title: Applications
   url: chapters/applications
