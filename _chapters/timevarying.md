@@ -2,7 +2,7 @@
 title: 'Time-varying parameters'
 permalink: 'chapters/timevarying'
 previouschapter:
-  url: chapters/blackross2015/r
+  url: chapters/erlang/r
   title: 'R'
 nextchapter:
   url: chapters/sirforced/intro

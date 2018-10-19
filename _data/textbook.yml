@@ -125,6 +125,19 @@ chapters:
   url: chapters/finalsize
 - children:
   - class: level_1
+    title: Discrete Erlang SEIR model
+    url: chapters/erlang/intro
+  - class: level_2
+    title: Julia
+    url: chapters/erlang/julia
+  - class: level_2
+    title: R
+    url: chapters/erlang/r
+  class: level_0
+  title: Non-exponential passage times
+  url: chapters/nonexponential
+- children:
+  - class: level_1
     title: Seasonally forced deterministic model
     url: chapters/sirforced/intro
   - class: level_2

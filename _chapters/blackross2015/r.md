@@ -6,8 +6,8 @@ previouschapter:
   url: chapters/blackross2015/scilab
   title: 'Scilab'
 nextchapter:
-  url: chapters/timevarying
-  title: 'Time-varying parameters'
+  url: chapters/nonexponential
+  title: 'Non-exponential passage times'
 redirect_from:
   - 'chapters/blackross2015/r'
 ---
