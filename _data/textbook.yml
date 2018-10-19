@@ -138,6 +138,19 @@ chapters:
   url: chapters/nonexponential
 - children:
   - class: level_1
+    title: May and Anderson 1978 model
+    url: chapters/mayanderson1978/intro
+  - class: level_2
+    title: Julia
+    url: chapters/mayanderson1978/julia
+  - class: level_2
+    title: R using deSolve
+    url: chapters/mayanderson1978/r_desolve
+  class: level_0
+  title: Macroparasite models
+  url: chapters/macroparasite
+- children:
+  - class: level_1
     title: Seasonally forced deterministic model
     url: chapters/sirforced/intro
   - class: level_2
