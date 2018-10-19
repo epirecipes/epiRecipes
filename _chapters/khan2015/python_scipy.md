@@ -6,8 +6,8 @@ previouschapter:
   url: chapters/khan2015/python_pygom
   title: 'Python using PyGOM'
 nextchapter:
-  url: chapters/kr08
-  title: 'Keeling and Rohani 2008'
+  url: chapters/seasonalsirs/intro
+  title: 'A stochastic, seasonal, discrete-time model of rotavirus'
 redirect_from:
   - 'chapters/khan2015/python-scipy'
 ---

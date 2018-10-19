@@ -6,8 +6,8 @@ previouschapter:
   url: chapters/kr08/3_4/intro
   title: 'Program 3.4: Age structured SEIR'
 nextchapter:
-  url: chapters/appendices
-  title: 'Appendices'
+  url: chapters/kr08/4_4/intro
+  title: 'Program 4.4: Multi-host SEIR'
 redirect_from:
   - 'chapters/kr08/3-4/r-desolve'
 ---

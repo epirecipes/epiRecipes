@@ -2,8 +2,8 @@
 title: 'SIS model'
 permalink: 'chapters/sis/intro'
 previouschapter:
-  url: chapters/sir/js_observable
-  title: 'Javascript using Observable'
+  url: chapters/seir/r_desolve
+  title: 'R using deSolve'
 nextchapter:
   url: chapters/sis/js_observable
   title: 'Javascript using Observable'

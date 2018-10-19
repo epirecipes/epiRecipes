@@ -6,8 +6,8 @@ previouschapter:
   url: chapters/erlang/julia
   title: 'Julia'
 nextchapter:
-  url: chapters/timevarying
-  title: 'Time-varying parameters'
+  url: chapters/hostvector
+  title: 'Host-vector models'
 redirect_from:
   - 'chapters/erlang/r'
 ---

@@ -6,8 +6,8 @@ previouschapter:
   url: chapters/diffrisk/intro
   title: 'A model of HIV with two risk groups'
 nextchapter:
-  url: chapters/kr08
-  title: 'Keeling and Rohani 2008'
+  url: chapters/khan2015/intro
+  title: 'A deterministic SEIR model of Ebola'
 redirect_from:
   - 'chapters/diffrisk/r'
 ---

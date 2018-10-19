@@ -2,11 +2,11 @@
 title: 'Macroparasite models'
 permalink: 'chapters/macroparasite'
 previouschapter:
-  url: chapters/erlang/r
-  title: 'R'
+  url: chapters/nhostsmvectors/julia
+  title: 'Julia'
 nextchapter:
-  url: 1978
-  title: 'May and Anderson (1978) model'
+  url: chapters/mayanderson1978/intro
+  title: 'May and Anderson 1978 model'
 redirect_from:
   - 'chapters/macroparasite'
 ---

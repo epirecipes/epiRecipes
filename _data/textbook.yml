@@ -43,10 +43,10 @@ chapters:
   - class: level_1
     title: SEIR model
     url: chapters/seir/intro
-  - class: level_3
+  - class: level_2
     title: Julia
     url: chapters/seir/julia
-  - class: level_3
+  - class: level_2
     title: R using deSolve
     url: chapters/seir/r_desolve
   - class: level_1
@@ -145,6 +145,28 @@ chapters:
   class: level_0
   title: Non-exponential passage times
   url: chapters/nonexponential
+- children:
+  - class: level_1
+    title: One host, one vector
+    url: chapters/1host1vector/intro
+  - class: level_2
+    title: Julia
+    url: chapters/1host1vector/julia
+  - class: level_1
+    title: N hosts, one vector
+    url: chapters/nhosts1vector/intro
+  - class: level_2
+    title: Julia
+    url: chapters/nhosts1vector/julia
+  - class: level_1
+    title: N hosts, M vectors
+    url: chapters/nhostsmvectors/intro
+  - class: level_2
+    title: Julia
+    url: chapters/nhostsmvectors/julia
+  class: level_0
+  title: Host-vector models
+  url: chapters/hostvector
 - children:
   - class: level_1
     title: May and Anderson 1978 model

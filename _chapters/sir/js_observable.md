@@ -5,8 +5,8 @@ previouschapter:
   url: chapters/sir/js
   title: 'Javascript'
 nextchapter:
-  url: chapters/sis/intro
-  title: 'SIS model'
+  url: chapters/seir/intro
+  title: 'SEIR model'
 redirect_from:
   - 'chapters/sir/js-observable'
 ---
