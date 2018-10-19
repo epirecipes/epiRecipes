@@ -41,6 +41,15 @@ chapters:
     title: Javascript using Observable
     url: chapters/sir/js_observable
   - class: level_1
+    title: SEIR model
+    url: chapters/seir/intro
+  - class: level_3
+    title: Julia
+    url: chapters/seir/julia
+  - class: level_3
+    title: R using deSolve
+    url: chapters/seir/r_desolve
+  - class: level_1
     title: SIS model
     url: chapters/sis/intro
   - class: level_2

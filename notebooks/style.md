@@ -10,9 +10,10 @@
 5. Each implementation should follow the following structure:
    - Title of implementation
    - Name of author followed by GitHub username
-   - Date
+   - Date in IS)8601
    - Simulation
    - Visualisation
-6. Other style points:
+6. Ensure there are no empty cells at the end of the notebook.
+7. Other style points:
    - Use `snake_case` for variables.
    - Use `##` for headings and `###` for subheadings.
