@@ -46,6 +46,18 @@ chapters:
   - class: level_2
     title: Javascript using Observable
     url: chapters/sis/js_observable
+  - class: level_1
+    title: Scaling model
+    url: chapters/deleo1996/intro
+  - class: level_2
+    title: Julia
+    url: chapters/deleo1996/julia
+  - class: level_2
+    title: Python
+    url: chapters/deleo1996/python
+  - class: level_2
+    title: R using deSolve
+    url: chapters/deleo1996/r_desolve
   class: level_0
   title: Simple deterministic models
   url: chapters/simple

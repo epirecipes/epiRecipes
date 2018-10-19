@@ -5,8 +5,8 @@ previouschapter:
   url: chapters/sis/intro
   title: 'SIS model'
 nextchapter:
-  url: chapters/stochastic
-  title: 'Simple stochastic models'
+  url: chapters/deleo1996/intro
+  title: 'Scaling model'
 redirect_from:
   - 'chapters/sis/js-observable'
 ---

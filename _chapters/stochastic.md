@@ -2,8 +2,8 @@
 title: 'Simple stochastic models'
 permalink: 'chapters/stochastic'
 previouschapter:
-  url: chapters/sis/js_observable
-  title: 'Javascript using Observable'
+  url: chapters/deleo1996/r_desolve
+  title: 'R using deSolve'
 nextchapter:
   url: chapters/sir-stochastic-discretestate-continuoustime/intro
   title: 'Continuous time SIR'
