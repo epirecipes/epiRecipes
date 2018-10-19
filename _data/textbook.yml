@@ -184,6 +184,15 @@ chapters:
   - class: level_2
     title: R
     url: chapters/diffrisk/r
+  - class: level_1
+    title: A deterministic SEIR model of Ebola
+    url: chapters/khan2015/intro
+  - class: level_2
+    title: Python using PyGOM
+    url: chapters/khan2015/python_pygom
+  - class: level_2
+    title: Python using SciPy
+    url: chapters/khan2015/python_scipy
   class: level_0
   title: Applications
   url: chapters/applications
