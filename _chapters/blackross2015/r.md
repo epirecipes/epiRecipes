@@ -30,6 +30,15 @@ gamma1 <- 1;
 final_size1 <- c(0.00000, 0.33333, 0.08640, 0.04908, 0.03814, 0.03638, 0.04079, 0.05256, 0.07614, 0.11862, 0.16854)
 ```
 
+Although most of the code uses base R functions, we load libraries for testing and plotting.
+
+
+{:.input_area}
+```R
+library(ggplot2)
+library(testthat)
+```
+
 
 {:.input_area}
 ```R
@@ -82,32 +91,11 @@ outbreak_size_distr <- function(N, beta, gamma) {
 ```R
 distr <- outbreak_size_distr(N = 10, beta = 2/9, gamma = 1)
 distr <- round(distr, 5)
-distr
 ```
-
-
-<div markdown="0">
-<ol class=list-inline>
-	<li>0</li>
-	<li>0.33333</li>
-	<li>0.0864</li>
-	<li>0.04908</li>
-	<li>0.03814</li>
-	<li>0.03638</li>
-	<li>0.04079</li>
-	<li>0.05256</li>
-	<li>0.07614</li>
-	<li>0.11862</li>
-	<li>0.16854</li>
-</ol>
-
-</div>
-
 
 
 {:.input_area}
 ```R
-library(testthat)
 testthat::expect_equal(distr, final_size1)
 ```
 
@@ -116,27 +104,7 @@ testthat::expect_equal(distr, final_size1)
 ```R
 distr <- outbreak_size_distr(N = 10, beta = 2/9, gamma = 0)
 distr <- round(distr, 5)
-distr
 ```
-
-
-<div markdown="0">
-<ol class=list-inline>
-	<li>0</li>
-	<li>0</li>
-	<li>0</li>
-	<li>0</li>
-	<li>0</li>
-	<li>0</li>
-	<li>0</li>
-	<li>0</li>
-	<li>0</li>
-	<li>0</li>
-	<li>1</li>
-</ol>
-
-</div>
-
 
 
 {:.input_area}
@@ -144,8 +112,7 @@ distr
 testthat::expect_equal(distr, final_size2)
 ```
 
-So we have convinced ourselves that everything works as expected. We can play around with the parameters.
-For a given value of N and gamma, how does beta influence the outbreak size distribution?
+The above assertion checks that everything works as expected. For a given value of N and gamma, how does beta influence the outbreak size distribution?
 
 
 {:.input_area}
@@ -159,12 +126,6 @@ final_distr <- lapply(beta, function(b) outbreak_size_distr(N, beta = b, gamma))
 
 {:.input_area}
 ```R
-library(ggplot2)
-```
-
-
-{:.input_area}
-```R
 results <- data.frame()
 for (i in seq_along(beta)) {
     results <- rbind(results, data.frame(infection_rate = rep(beta[i], N + 1), 
@@ -172,22 +133,6 @@ for (i in seq_along(beta)) {
 }
 results$infection_rate <- factor(results$infection_rate)
 ```
-
-
-{:.input_area}
-```R
-library(ggplot2)
-x <- rep(0:N, length(beta))
-ggplot(results, aes(x, distr, fill = infection_rate)) +
-  geom_col(position = "dodge") +
-  ylim(c(0, 1))
-```
-
-
-
-
-![png](../../images/chapters/blackross2015/r_13_1.png)
-
 
 Thus the probability of the final size of the outbreak being very small or very large is high and close to 0 for anything in between. 
 What if we change the recovery rate?
