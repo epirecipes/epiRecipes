@@ -82,5 +82,7 @@
     * [R using deSolve](notebooks/kr08/3_2/r_desolve.ipynb)
   * [Program 3.4: Age structured SEIR](notebooks/kr08/3_4/intro.md)
     * [R using deSolve](notebooks/kr08/3_4/r_desolve.ipynb)
+  * [Program 4.4: Multi-host SEIR](notebooks/kr08/4_4/intro.md)
+    * [R using deSolve](notebooks/kr08/4_4/r_desolve.ipynb)
 * [Appendices](notebooks/appendices.md)
   * [Style guide for notebooks](notebooks/style.md)

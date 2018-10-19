@@ -9,9 +9,10 @@
 4. If there are separate implementations for each language, use a suffix separated by a hyphen e.g. `r-simecol.ipynb`.
 5. Each implementation should follow the following structure:
    - Title of implementation
-   - Name of author
+   - Name of author followed by GitHub username
    - Date
    - Simulation
    - Visualisation
 6. Other style points:
    - Use `snake_case` for variables.
+   - Use `##` for headings and `###` for subheadings.

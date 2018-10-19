@@ -255,6 +255,12 @@ chapters:
   - class: level_2
     title: R using deSolve
     url: chapters/kr08/3_4/r_desolve
+  - class: level_1
+    title: 'Program 4.4: Multi-host SEIR'
+    url: chapters/kr08/4_4/intro
+  - class: level_2
+    title: R using deSolve
+    url: chapters/kr08/4_4/r_desolve
   class: level_0
   title: Keeling and Rohani 2008
   url: chapters/kr08
