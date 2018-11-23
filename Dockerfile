@@ -6,9 +6,6 @@ ENV DEBIAN_FRONTEND noninteractive
 
 USER jovyan
 
-RUN R -e "install.packages('drat');drat:::add('mrc-ide');install.packages(c('dde','odin'))"
-
-RUN pwd
 RUN cd $HOME && \
     git clone https://github.com/epirecipes/epicookbook && \
     mv epicookbook/notebooks ${HOME}/notebooks && \

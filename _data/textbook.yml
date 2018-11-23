@@ -99,6 +99,9 @@ chapters:
     title: R using LibBi
     url: chapters/sir-stochastic-discretestate-discretetime/r_rbi
   - class: level_2
+    title: Python
+    url: chapters/sir-stochastic-discretestate-discretetime/python
+  - class: level_2
     title: Julia
     url: chapters/sir-stochastic-discretestate-discretetime/julia
   - class: level_1
@@ -317,6 +320,25 @@ chapters:
   class: level_0
   title: Keeling and Rohani 2008
   url: chapters/kr08
+- children:
+  - class: level_1
+    title: 'Chapter 1: Introduction'
+    url: chapters/ob18/c1/intro
+  - class: level_2
+    title: Original R code
+    url: chapters/ob18/c1/r
+  - class: level_2
+    title: Julia
+    url: chapters/ob18/c1/julia
+  - class: level_1
+    title: 'Chapter 2: SIR'
+    url: chapters/ob18/c2/intro
+  - class: level_2
+    title: Original R code
+    url: chapters/ob18/c2/r
+  class: level_0
+  title: Bjornstad 2018
+  url: chapters/ob18
 - children:
   - class: level_1
     title: Style guide for notebooks

@@ -1,0 +1,15 @@
+version: '2'
+
+services:
+  epicookbook:
+    build: .
+    image: sdwfrost/epicookbook
+    user: root
+    environment:
+        - GRANT_SUDO=yes
+        - NB_USER=jovyan
+    volumes:
+        - .:/home/jovyan
+    ports:
+        - 8888:8888
+    container_name: epicookbook-container

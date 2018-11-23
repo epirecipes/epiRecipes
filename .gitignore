@@ -132,3 +132,7 @@ Rplots.pdf
 
 # Scilab
 *.sci
+
+.jupyter
+.local
+

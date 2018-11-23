@@ -6,8 +6,8 @@ previouschapter:
   url: chapters/kr08/4_4/intro
   title: 'Program 4.4: Multi-host SEIR'
 nextchapter:
-  url: chapters/appendices
-  title: 'Appendices'
+  url: chapters/ob18
+  title: 'Bjornstad 2018'
 redirect_from:
   - 'chapters/kr08/4-4/r-desolve'
 ---

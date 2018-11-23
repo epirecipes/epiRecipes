@@ -2,8 +2,8 @@
 title: 'Appendices'
 permalink: 'chapters/appendices'
 previouschapter:
-  url: chapters/kr08/4_4/r_desolve
-  title: 'R using deSolve'
+  url: chapters/ob18/c2/r
+  title: 'Original R code'
 nextchapter:
   url: chapters/style
   title: 'Style guide for notebooks'

@@ -3,8 +3,8 @@ interact_link: notebooks/sir-stochastic-discretestate-discretetime/julia.ipynb
 title: 'Julia'
 permalink: 'chapters/sir-stochastic-discretestate-discretetime/julia'
 previouschapter:
-  url: chapters/sir-stochastic-discretestate-discretetime/r_rbi
-  title: 'R using LibBi'
+  url: chapters/sir-stochastic-discretestate-discretetime/python
+  title: 'Python'
 nextchapter:
   url: chapters/seird-stochastic-discretestate-discretetime/intro
   title: 'Discrete time SEIRD'
@@ -133,7 +133,7 @@ head(sir_out)
 
 
 <div markdown="0">
-<table class="data-frame"><thead><tr><th></th><th>Time</th><th>S</th><th>I</th><th>R</th><th>Y</th></tr></thead><tbody><tr><th>1</th><td>0.0</td><td>999.0</td><td>1.0</td><td>0.0</td><td>0.0</td></tr><tr><th>2</th><td>0.1</td><td>999.0</td><td>1.0</td><td>0.0</td><td>0.0</td></tr><tr><th>3</th><td>0.2</td><td>999.0</td><td>1.0</td><td>0.0</td><td>0.0</td></tr><tr><th>4</th><td>0.3</td><td>999.0</td><td>1.0</td><td>0.0</td><td>0.0</td></tr><tr><th>5</th><td>0.4</td><td>999.0</td><td>1.0</td><td>0.0</td><td>0.0</td></tr><tr><th>6</th><td>0.5</td><td>999.0</td><td>1.0</td><td>0.0</td><td>0.0</td></tr></tbody></table>
+<table class="data-frame"><thead><tr><th></th><th>Time</th><th>S</th><th>I</th><th>R</th><th>Y</th></tr><tr><th></th><th>Float64</th><th>Float64</th><th>Float64</th><th>Float64</th><th>Float64</th></tr></thead><tbody><tr><th>1</th><td>0.0</td><td>999.0</td><td>1.0</td><td>0.0</td><td>0.0</td></tr><tr><th>2</th><td>0.1</td><td>999.0</td><td>1.0</td><td>0.0</td><td>0.0</td></tr><tr><th>3</th><td>0.2</td><td>999.0</td><td>1.0</td><td>0.0</td><td>0.0</td></tr><tr><th>4</th><td>0.3</td><td>999.0</td><td>1.0</td><td>0.0</td><td>0.0</td></tr><tr><th>5</th><td>0.4</td><td>999.0</td><td>1.0</td><td>0.0</td><td>0.0</td></tr><tr><th>6</th><td>0.5</td><td>999.0</td><td>1.0</td><td>0.0</td><td>0.0</td></tr></tbody></table>
 </div>
 
 
@@ -147,14 +147,48 @@ using Plots, StatPlots
 ```
 
 
+{:.output_traceback_line}
+```
+ArgumentError: Package StatPlots not found in current path:
+- Run `import Pkg; Pkg.add("StatPlots")` to install the StatPlots package.
+
+```
+
+{:.output_traceback_line}
+```
+
+```
+
+{:.output_traceback_line}
+```
+Stacktrace:
+```
+
+{:.output_traceback_line}
+```
+ [1] require(::Module, ::Symbol) at ./loading.jl:820
+```
+
+{:.output_traceback_line}
+```
+ [2] top-level scope at In[8]:1
+```
+
+
+
 {:.input_area}
 ```julia
 @df sir_out plot(:Time, [:S :I :R], colour = [:red :green :blue], xlabel="Time",ylabel="Number")
 ```
 
 
+{:.output_traceback_line}
+```
+UndefVarError: @df not defined
+```
 
+{:.output_traceback_line}
+```
 
-![svg](../../images/chapters/sir-stochastic-discretestate-discretetime/julia_10_0.svg)
-
+```
 

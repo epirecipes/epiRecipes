@@ -6,8 +6,8 @@ previouschapter:
   url: chapters/sir-stochastic-discretestate-discretetime/r_pomp
   title: 'R using POMP'
 nextchapter:
-  url: chapters/sir-stochastic-discretestate-discretetime/julia
-  title: 'Julia'
+  url: chapters/sir-stochastic-discretestate-discretetime/python
+  title: 'Python'
 redirect_from:
   - 'chapters/sir-stochastic-discretestate-discretetime/r-rbi'
 ---
