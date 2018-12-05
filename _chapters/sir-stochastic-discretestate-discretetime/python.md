@@ -28,6 +28,20 @@ import pythran
 
 {:.input_area}
 ```python
+%%writefile .pythranrc
+[compiler]
+include_dirs=/usr/include/openblas
+```
+
+{:.output_stream}
+```
+Writing .pythranrc
+
+```
+
+
+{:.input_area}
+```python
 %load_ext pythran.magic
 ```
 
@@ -77,7 +91,7 @@ def simulate():
 
 {:.output_stream}
 ```
-9.01 ms ± 146 µs per loop (mean ± std. dev. of 7 runs, 100 loops each)
+8.89 ms ± 85.7 µs per loop (mean ± std. dev. of 7 runs, 100 loops each)
 
 ```
 
@@ -1241,5 +1255,5 @@ frame.set_linewidth(0)
 ```
 
 
-![png](../../images/chapters/sir-stochastic-discretestate-discretetime/python_19_0.png)
+![png](../../images/chapters/sir-stochastic-discretestate-discretetime/python_20_0.png)
 

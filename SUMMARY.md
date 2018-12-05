@@ -76,6 +76,8 @@
     * [Javascript using Observable](notebooks/sircn/js_observable.md)
   * [An individual based model of pneumococcal transmission](notebooks/karlsson/intro.md)
     * [R](notebooks/karlsson/r.ipynb)
+  * [An SIR model in London boroughs](notebooks/london-boroughs-network/intro.md)
+    * [R](notebooks/london-boroughs-network/r.ipynb)
 * [Phylodynamic models](notebooks/phylodynamics.md)
   * [Simple coalescent model](notebooks/coalescent/intro.md)
     * [R](notebooks/coalescent/r.ipynb)

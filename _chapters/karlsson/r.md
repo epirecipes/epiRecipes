@@ -6,8 +6,8 @@ previouschapter:
   url: chapters/karlsson/intro
   title: 'An individual based model of pneumococcal transmission'
 nextchapter:
-  url: chapters/phylodynamics
-  title: 'Phylodynamic models'
+  url: chapters/london-boroughs-network/intro
+  title: 'An SIR model in London boroughs'
 redirect_from:
   - 'chapters/karlsson/r'
 ---

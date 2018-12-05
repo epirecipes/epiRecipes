@@ -237,6 +237,12 @@ chapters:
   - class: level_2
     title: R
     url: chapters/karlsson/r
+  - class: level_1
+    title: An SIR model in London boroughs
+    url: chapters/london-boroughs-network/intro
+  - class: level_2
+    title: R
+    url: chapters/london-boroughs-network/r
   class: level_0
   title: Network models
   url: chapters/network
