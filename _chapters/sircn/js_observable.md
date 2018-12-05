@@ -5,8 +5,8 @@ previouschapter:
   url: chapters/sircn/r
   title: 'R'
 nextchapter:
-  url: chapters/applications
-  title: 'Applications'
+  url: chapters/karlsson/intro
+  title: 'An individual based model of pneumococcal transmission'
 redirect_from:
   - 'chapters/sircn/js-observable'
 ---

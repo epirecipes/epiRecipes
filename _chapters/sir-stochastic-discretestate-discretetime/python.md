@@ -28,7 +28,7 @@ import pythran
 
 {:.input_area}
 ```python
- %load_ext pythran.magic
+%load_ext pythran.magic
 ```
 
 
@@ -77,7 +77,7 @@ def simulate():
 
 {:.output_stream}
 ```
-10.6 ms ± 711 µs per loop (mean ± std. dev. of 7 runs, 100 loops each)
+9.01 ms ± 146 µs per loop (mean ± std. dev. of 7 runs, 100 loops each)
 
 ```
 
@@ -115,253 +115,253 @@ sir_out
   <thead>
     <tr style="text-align: right;">
       <th></th>
+      <th>t</th>
+      <th>S</th>
       <th>I</th>
       <th>R</th>
-      <th>S</th>
       <th>Y</th>
-      <th>t</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <th>0</th>
-      <td>1.0</td>
       <td>0.0</td>
       <td>999.0</td>
+      <td>1.0</td>
       <td>0.0</td>
       <td>0.0</td>
     </tr>
     <tr>
       <th>1</th>
+      <td>0.1</td>
+      <td>999.0</td>
       <td>1.0</td>
       <td>0.0</td>
-      <td>999.0</td>
       <td>0.0</td>
-      <td>0.1</td>
     </tr>
     <tr>
       <th>2</th>
+      <td>0.2</td>
+      <td>999.0</td>
       <td>1.0</td>
       <td>0.0</td>
-      <td>999.0</td>
       <td>0.0</td>
-      <td>0.2</td>
     </tr>
     <tr>
       <th>3</th>
+      <td>0.3</td>
+      <td>999.0</td>
       <td>1.0</td>
       <td>0.0</td>
-      <td>999.0</td>
       <td>0.0</td>
-      <td>0.3</td>
     </tr>
     <tr>
       <th>4</th>
+      <td>0.4</td>
+      <td>999.0</td>
       <td>1.0</td>
       <td>0.0</td>
-      <td>999.0</td>
       <td>0.0</td>
-      <td>0.4</td>
     </tr>
     <tr>
       <th>5</th>
+      <td>0.5</td>
+      <td>999.0</td>
       <td>1.0</td>
       <td>0.0</td>
-      <td>999.0</td>
       <td>0.0</td>
-      <td>0.5</td>
     </tr>
     <tr>
       <th>6</th>
+      <td>0.6</td>
+      <td>999.0</td>
       <td>1.0</td>
       <td>0.0</td>
-      <td>999.0</td>
       <td>0.0</td>
-      <td>0.6</td>
     </tr>
     <tr>
       <th>7</th>
+      <td>0.7</td>
+      <td>999.0</td>
       <td>1.0</td>
       <td>0.0</td>
-      <td>999.0</td>
       <td>0.0</td>
-      <td>0.7</td>
     </tr>
     <tr>
       <th>8</th>
+      <td>0.8</td>
+      <td>999.0</td>
       <td>1.0</td>
       <td>0.0</td>
-      <td>999.0</td>
       <td>0.0</td>
-      <td>0.8</td>
     </tr>
     <tr>
       <th>9</th>
+      <td>0.9</td>
+      <td>999.0</td>
       <td>1.0</td>
       <td>0.0</td>
-      <td>999.0</td>
       <td>0.0</td>
-      <td>0.9</td>
     </tr>
     <tr>
       <th>10</th>
       <td>1.0</td>
-      <td>0.0</td>
       <td>999.0</td>
-      <td>0.0</td>
       <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
     </tr>
     <tr>
       <th>11</th>
+      <td>1.1</td>
+      <td>999.0</td>
       <td>1.0</td>
       <td>0.0</td>
-      <td>999.0</td>
       <td>0.0</td>
-      <td>1.1</td>
     </tr>
     <tr>
       <th>12</th>
+      <td>1.2</td>
+      <td>999.0</td>
       <td>1.0</td>
       <td>0.0</td>
-      <td>999.0</td>
       <td>0.0</td>
-      <td>1.2</td>
     </tr>
     <tr>
       <th>13</th>
+      <td>1.3</td>
+      <td>999.0</td>
       <td>1.0</td>
       <td>0.0</td>
-      <td>999.0</td>
       <td>0.0</td>
-      <td>1.3</td>
     </tr>
     <tr>
       <th>14</th>
+      <td>1.4</td>
+      <td>999.0</td>
       <td>1.0</td>
       <td>0.0</td>
-      <td>999.0</td>
       <td>0.0</td>
-      <td>1.4</td>
     </tr>
     <tr>
       <th>15</th>
+      <td>1.5</td>
+      <td>999.0</td>
       <td>1.0</td>
       <td>0.0</td>
-      <td>999.0</td>
       <td>0.0</td>
-      <td>1.5</td>
     </tr>
     <tr>
       <th>16</th>
+      <td>1.6</td>
+      <td>999.0</td>
       <td>1.0</td>
       <td>0.0</td>
-      <td>999.0</td>
       <td>0.0</td>
-      <td>1.6</td>
     </tr>
     <tr>
       <th>17</th>
+      <td>1.7</td>
+      <td>999.0</td>
       <td>1.0</td>
       <td>0.0</td>
-      <td>999.0</td>
       <td>0.0</td>
-      <td>1.7</td>
     </tr>
     <tr>
       <th>18</th>
+      <td>1.8</td>
+      <td>999.0</td>
       <td>1.0</td>
       <td>0.0</td>
-      <td>999.0</td>
       <td>0.0</td>
-      <td>1.8</td>
     </tr>
     <tr>
       <th>19</th>
+      <td>1.9</td>
+      <td>999.0</td>
       <td>1.0</td>
       <td>0.0</td>
-      <td>999.0</td>
       <td>0.0</td>
-      <td>1.9</td>
     </tr>
     <tr>
       <th>20</th>
+      <td>2.0</td>
+      <td>999.0</td>
       <td>1.0</td>
       <td>0.0</td>
-      <td>999.0</td>
       <td>0.0</td>
-      <td>2.0</td>
     </tr>
     <tr>
       <th>21</th>
+      <td>2.1</td>
+      <td>999.0</td>
       <td>1.0</td>
       <td>0.0</td>
-      <td>999.0</td>
       <td>0.0</td>
-      <td>2.1</td>
     </tr>
     <tr>
       <th>22</th>
+      <td>2.2</td>
+      <td>999.0</td>
       <td>1.0</td>
       <td>0.0</td>
-      <td>999.0</td>
       <td>0.0</td>
-      <td>2.2</td>
     </tr>
     <tr>
       <th>23</th>
+      <td>2.3</td>
+      <td>999.0</td>
       <td>1.0</td>
       <td>0.0</td>
-      <td>999.0</td>
       <td>0.0</td>
-      <td>2.3</td>
     </tr>
     <tr>
       <th>24</th>
+      <td>2.4</td>
+      <td>999.0</td>
       <td>1.0</td>
       <td>0.0</td>
-      <td>999.0</td>
       <td>0.0</td>
-      <td>2.4</td>
     </tr>
     <tr>
       <th>25</th>
+      <td>2.5</td>
+      <td>999.0</td>
       <td>1.0</td>
       <td>0.0</td>
-      <td>999.0</td>
       <td>0.0</td>
-      <td>2.5</td>
     </tr>
     <tr>
       <th>26</th>
+      <td>2.6</td>
+      <td>999.0</td>
       <td>1.0</td>
       <td>0.0</td>
-      <td>999.0</td>
       <td>0.0</td>
-      <td>2.6</td>
     </tr>
     <tr>
       <th>27</th>
+      <td>2.7</td>
+      <td>999.0</td>
       <td>1.0</td>
       <td>0.0</td>
-      <td>999.0</td>
       <td>0.0</td>
-      <td>2.7</td>
     </tr>
     <tr>
       <th>28</th>
+      <td>2.8</td>
+      <td>999.0</td>
       <td>1.0</td>
       <td>0.0</td>
-      <td>999.0</td>
       <td>0.0</td>
-      <td>2.8</td>
     </tr>
     <tr>
       <th>29</th>
+      <td>2.9</td>
+      <td>999.0</td>
       <td>1.0</td>
       <td>0.0</td>
-      <td>999.0</td>
       <td>0.0</td>
-      <td>2.9</td>
     </tr>
     <tr>
       <th>...</th>
@@ -373,243 +373,243 @@ sir_out
     </tr>
     <tr>
       <th>1971</th>
+      <td>197.1</td>
+      <td>285.0</td>
       <td>62.0</td>
       <td>653.0</td>
-      <td>285.0</td>
       <td>714.0</td>
-      <td>197.1</td>
     </tr>
     <tr>
       <th>1972</th>
+      <td>197.2</td>
+      <td>285.0</td>
       <td>62.0</td>
       <td>653.0</td>
-      <td>285.0</td>
       <td>714.0</td>
-      <td>197.2</td>
     </tr>
     <tr>
       <th>1973</th>
+      <td>197.3</td>
+      <td>285.0</td>
       <td>62.0</td>
       <td>653.0</td>
-      <td>285.0</td>
       <td>714.0</td>
-      <td>197.3</td>
     </tr>
     <tr>
       <th>1974</th>
+      <td>197.4</td>
+      <td>285.0</td>
       <td>61.0</td>
       <td>654.0</td>
-      <td>285.0</td>
       <td>714.0</td>
-      <td>197.4</td>
     </tr>
     <tr>
       <th>1975</th>
+      <td>197.5</td>
+      <td>285.0</td>
       <td>60.0</td>
       <td>655.0</td>
-      <td>285.0</td>
       <td>714.0</td>
-      <td>197.5</td>
     </tr>
     <tr>
       <th>1976</th>
+      <td>197.6</td>
+      <td>285.0</td>
       <td>60.0</td>
       <td>655.0</td>
-      <td>285.0</td>
       <td>714.0</td>
-      <td>197.6</td>
     </tr>
     <tr>
       <th>1977</th>
+      <td>197.7</td>
+      <td>285.0</td>
       <td>59.0</td>
       <td>656.0</td>
-      <td>285.0</td>
       <td>714.0</td>
-      <td>197.7</td>
     </tr>
     <tr>
       <th>1978</th>
+      <td>197.8</td>
+      <td>285.0</td>
       <td>58.0</td>
       <td>657.0</td>
-      <td>285.0</td>
       <td>714.0</td>
-      <td>197.8</td>
     </tr>
     <tr>
       <th>1979</th>
+      <td>197.9</td>
+      <td>285.0</td>
       <td>57.0</td>
       <td>658.0</td>
-      <td>285.0</td>
       <td>714.0</td>
-      <td>197.9</td>
     </tr>
     <tr>
       <th>1980</th>
+      <td>198.0</td>
+      <td>285.0</td>
       <td>57.0</td>
       <td>658.0</td>
-      <td>285.0</td>
       <td>714.0</td>
-      <td>198.0</td>
     </tr>
     <tr>
       <th>1981</th>
+      <td>198.1</td>
+      <td>285.0</td>
       <td>57.0</td>
       <td>658.0</td>
-      <td>285.0</td>
       <td>714.0</td>
-      <td>198.1</td>
     </tr>
     <tr>
       <th>1982</th>
+      <td>198.2</td>
+      <td>285.0</td>
       <td>57.0</td>
       <td>658.0</td>
-      <td>285.0</td>
       <td>714.0</td>
-      <td>198.2</td>
     </tr>
     <tr>
       <th>1983</th>
+      <td>198.3</td>
+      <td>285.0</td>
       <td>57.0</td>
       <td>658.0</td>
-      <td>285.0</td>
       <td>714.0</td>
-      <td>198.3</td>
     </tr>
     <tr>
       <th>1984</th>
+      <td>198.4</td>
+      <td>285.0</td>
       <td>57.0</td>
       <td>658.0</td>
-      <td>285.0</td>
       <td>714.0</td>
-      <td>198.4</td>
     </tr>
     <tr>
       <th>1985</th>
+      <td>198.5</td>
+      <td>285.0</td>
       <td>56.0</td>
       <td>659.0</td>
-      <td>285.0</td>
       <td>714.0</td>
-      <td>198.5</td>
     </tr>
     <tr>
       <th>1986</th>
+      <td>198.6</td>
+      <td>285.0</td>
       <td>56.0</td>
       <td>659.0</td>
-      <td>285.0</td>
       <td>714.0</td>
-      <td>198.6</td>
     </tr>
     <tr>
       <th>1987</th>
+      <td>198.7</td>
+      <td>285.0</td>
       <td>55.0</td>
       <td>660.0</td>
-      <td>285.0</td>
       <td>714.0</td>
-      <td>198.7</td>
     </tr>
     <tr>
       <th>1988</th>
+      <td>198.8</td>
+      <td>284.0</td>
       <td>56.0</td>
       <td>660.0</td>
-      <td>284.0</td>
       <td>715.0</td>
-      <td>198.8</td>
     </tr>
     <tr>
       <th>1989</th>
+      <td>198.9</td>
+      <td>284.0</td>
       <td>56.0</td>
       <td>660.0</td>
-      <td>284.0</td>
       <td>715.0</td>
-      <td>198.9</td>
     </tr>
     <tr>
       <th>1990</th>
+      <td>199.0</td>
+      <td>282.0</td>
       <td>58.0</td>
       <td>660.0</td>
-      <td>282.0</td>
       <td>717.0</td>
-      <td>199.0</td>
     </tr>
     <tr>
       <th>1991</th>
+      <td>199.1</td>
+      <td>282.0</td>
       <td>58.0</td>
       <td>660.0</td>
-      <td>282.0</td>
       <td>717.0</td>
-      <td>199.1</td>
     </tr>
     <tr>
       <th>1992</th>
+      <td>199.2</td>
+      <td>282.0</td>
       <td>57.0</td>
       <td>661.0</td>
-      <td>282.0</td>
       <td>717.0</td>
-      <td>199.2</td>
     </tr>
     <tr>
       <th>1993</th>
+      <td>199.3</td>
+      <td>282.0</td>
       <td>57.0</td>
       <td>661.0</td>
-      <td>282.0</td>
       <td>717.0</td>
-      <td>199.3</td>
     </tr>
     <tr>
       <th>1994</th>
+      <td>199.4</td>
+      <td>282.0</td>
       <td>57.0</td>
       <td>661.0</td>
-      <td>282.0</td>
       <td>717.0</td>
-      <td>199.4</td>
     </tr>
     <tr>
       <th>1995</th>
+      <td>199.5</td>
+      <td>282.0</td>
       <td>57.0</td>
       <td>661.0</td>
-      <td>282.0</td>
       <td>717.0</td>
-      <td>199.5</td>
     </tr>
     <tr>
       <th>1996</th>
+      <td>199.6</td>
+      <td>282.0</td>
       <td>56.0</td>
       <td>662.0</td>
-      <td>282.0</td>
       <td>717.0</td>
-      <td>199.6</td>
     </tr>
     <tr>
       <th>1997</th>
+      <td>199.7</td>
+      <td>282.0</td>
       <td>55.0</td>
       <td>663.0</td>
-      <td>282.0</td>
       <td>717.0</td>
-      <td>199.7</td>
     </tr>
     <tr>
       <th>1998</th>
+      <td>199.8</td>
+      <td>281.0</td>
       <td>56.0</td>
       <td>663.0</td>
-      <td>281.0</td>
       <td>718.0</td>
-      <td>199.8</td>
     </tr>
     <tr>
       <th>1999</th>
+      <td>199.9</td>
+      <td>281.0</td>
       <td>55.0</td>
       <td>664.0</td>
-      <td>281.0</td>
       <td>718.0</td>
-      <td>199.9</td>
     </tr>
     <tr>
       <th>2000</th>
+      <td>200.0</td>
+      <td>281.0</td>
       <td>54.0</td>
       <td>665.0</td>
-      <td>281.0</td>
       <td>718.0</td>
-      <td>200.0</td>
     </tr>
   </tbody>
 </table>
@@ -668,7 +668,7 @@ def simulatep():
 
 {:.output_stream}
 ```
-752 µs ± 3.87 µs per loop (mean ± std. dev. of 7 runs, 1000 loops each)
+434 µs ± 18.3 µs per loop (mean ± std. dev. of 7 runs, 1000 loops each)
 
 ```
 
@@ -708,252 +708,252 @@ sir_outp
   <thead>
     <tr style="text-align: right;">
       <th></th>
-      <th>I</th>
-      <th>R</th>
-      <th>S</th>
       <th>Y</th>
+      <th>R</th>
+      <th>I</th>
+      <th>S</th>
       <th>t</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <th>0</th>
+      <td>0.0</td>
+      <td>0.0</td>
       <td>1.0</td>
-      <td>0.0</td>
       <td>999.0</td>
-      <td>0.0</td>
       <td>0.0</td>
     </tr>
     <tr>
       <th>1</th>
+      <td>0.0</td>
+      <td>0.0</td>
       <td>1.0</td>
-      <td>0.0</td>
       <td>999.0</td>
-      <td>0.0</td>
       <td>0.1</td>
     </tr>
     <tr>
       <th>2</th>
+      <td>0.0</td>
+      <td>0.0</td>
       <td>1.0</td>
-      <td>0.0</td>
       <td>999.0</td>
-      <td>0.0</td>
       <td>0.2</td>
     </tr>
     <tr>
       <th>3</th>
+      <td>0.0</td>
+      <td>0.0</td>
       <td>1.0</td>
-      <td>0.0</td>
       <td>999.0</td>
-      <td>0.0</td>
       <td>0.3</td>
     </tr>
     <tr>
       <th>4</th>
+      <td>0.0</td>
+      <td>0.0</td>
       <td>1.0</td>
-      <td>0.0</td>
       <td>999.0</td>
-      <td>0.0</td>
       <td>0.4</td>
     </tr>
     <tr>
       <th>5</th>
+      <td>0.0</td>
+      <td>0.0</td>
       <td>1.0</td>
-      <td>0.0</td>
       <td>999.0</td>
-      <td>0.0</td>
       <td>0.5</td>
     </tr>
     <tr>
       <th>6</th>
+      <td>0.0</td>
+      <td>0.0</td>
       <td>1.0</td>
-      <td>0.0</td>
       <td>999.0</td>
-      <td>0.0</td>
       <td>0.6</td>
     </tr>
     <tr>
       <th>7</th>
+      <td>0.0</td>
+      <td>0.0</td>
       <td>1.0</td>
-      <td>0.0</td>
       <td>999.0</td>
-      <td>0.0</td>
       <td>0.7</td>
     </tr>
     <tr>
       <th>8</th>
+      <td>0.0</td>
+      <td>0.0</td>
       <td>1.0</td>
-      <td>0.0</td>
       <td>999.0</td>
-      <td>0.0</td>
       <td>0.8</td>
     </tr>
     <tr>
       <th>9</th>
+      <td>0.0</td>
+      <td>0.0</td>
       <td>1.0</td>
-      <td>0.0</td>
       <td>999.0</td>
-      <td>0.0</td>
       <td>0.9</td>
     </tr>
     <tr>
       <th>10</th>
+      <td>0.0</td>
+      <td>0.0</td>
       <td>1.0</td>
-      <td>0.0</td>
       <td>999.0</td>
-      <td>0.0</td>
       <td>1.0</td>
     </tr>
     <tr>
       <th>11</th>
+      <td>0.0</td>
+      <td>0.0</td>
       <td>1.0</td>
-      <td>0.0</td>
       <td>999.0</td>
-      <td>0.0</td>
       <td>1.1</td>
     </tr>
     <tr>
       <th>12</th>
+      <td>0.0</td>
+      <td>0.0</td>
       <td>1.0</td>
-      <td>0.0</td>
       <td>999.0</td>
-      <td>0.0</td>
       <td>1.2</td>
     </tr>
     <tr>
       <th>13</th>
+      <td>0.0</td>
+      <td>0.0</td>
       <td>1.0</td>
-      <td>0.0</td>
       <td>999.0</td>
-      <td>0.0</td>
       <td>1.3</td>
     </tr>
     <tr>
       <th>14</th>
+      <td>0.0</td>
+      <td>0.0</td>
       <td>1.0</td>
-      <td>0.0</td>
       <td>999.0</td>
-      <td>0.0</td>
       <td>1.4</td>
     </tr>
     <tr>
       <th>15</th>
+      <td>0.0</td>
+      <td>0.0</td>
       <td>1.0</td>
-      <td>0.0</td>
       <td>999.0</td>
-      <td>0.0</td>
       <td>1.5</td>
     </tr>
     <tr>
       <th>16</th>
+      <td>0.0</td>
+      <td>0.0</td>
       <td>1.0</td>
-      <td>0.0</td>
       <td>999.0</td>
-      <td>0.0</td>
       <td>1.6</td>
     </tr>
     <tr>
       <th>17</th>
+      <td>0.0</td>
       <td>1.0</td>
       <td>0.0</td>
       <td>999.0</td>
-      <td>0.0</td>
       <td>1.7</td>
     </tr>
     <tr>
       <th>18</th>
+      <td>0.0</td>
       <td>1.0</td>
       <td>0.0</td>
       <td>999.0</td>
-      <td>0.0</td>
       <td>1.8</td>
     </tr>
     <tr>
       <th>19</th>
+      <td>0.0</td>
       <td>1.0</td>
       <td>0.0</td>
       <td>999.0</td>
-      <td>0.0</td>
       <td>1.9</td>
     </tr>
     <tr>
       <th>20</th>
+      <td>0.0</td>
       <td>1.0</td>
       <td>0.0</td>
       <td>999.0</td>
-      <td>0.0</td>
       <td>2.0</td>
     </tr>
     <tr>
       <th>21</th>
+      <td>0.0</td>
       <td>1.0</td>
       <td>0.0</td>
       <td>999.0</td>
-      <td>0.0</td>
       <td>2.1</td>
     </tr>
     <tr>
       <th>22</th>
+      <td>0.0</td>
       <td>1.0</td>
       <td>0.0</td>
       <td>999.0</td>
-      <td>0.0</td>
       <td>2.2</td>
     </tr>
     <tr>
       <th>23</th>
+      <td>0.0</td>
       <td>1.0</td>
       <td>0.0</td>
       <td>999.0</td>
-      <td>0.0</td>
       <td>2.3</td>
     </tr>
     <tr>
       <th>24</th>
+      <td>0.0</td>
       <td>1.0</td>
       <td>0.0</td>
       <td>999.0</td>
-      <td>0.0</td>
       <td>2.4</td>
     </tr>
     <tr>
       <th>25</th>
+      <td>0.0</td>
       <td>1.0</td>
       <td>0.0</td>
       <td>999.0</td>
-      <td>0.0</td>
       <td>2.5</td>
     </tr>
     <tr>
       <th>26</th>
+      <td>0.0</td>
       <td>1.0</td>
       <td>0.0</td>
       <td>999.0</td>
-      <td>0.0</td>
       <td>2.6</td>
     </tr>
     <tr>
       <th>27</th>
+      <td>0.0</td>
       <td>1.0</td>
       <td>0.0</td>
       <td>999.0</td>
-      <td>0.0</td>
       <td>2.7</td>
     </tr>
     <tr>
       <th>28</th>
+      <td>0.0</td>
       <td>1.0</td>
       <td>0.0</td>
       <td>999.0</td>
-      <td>0.0</td>
       <td>2.8</td>
     </tr>
     <tr>
       <th>29</th>
+      <td>0.0</td>
       <td>1.0</td>
       <td>0.0</td>
       <td>999.0</td>
-      <td>0.0</td>
       <td>2.9</td>
     </tr>
     <tr>
@@ -966,242 +966,242 @@ sir_outp
     </tr>
     <tr>
       <th>1971</th>
-      <td>38.0</td>
-      <td>757.0</td>
-      <td>205.0</td>
-      <td>794.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>999.0</td>
       <td>197.1</td>
     </tr>
     <tr>
       <th>1972</th>
-      <td>37.0</td>
-      <td>758.0</td>
-      <td>205.0</td>
-      <td>794.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>999.0</td>
       <td>197.2</td>
     </tr>
     <tr>
       <th>1973</th>
-      <td>37.0</td>
-      <td>758.0</td>
-      <td>205.0</td>
-      <td>794.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>999.0</td>
       <td>197.3</td>
     </tr>
     <tr>
       <th>1974</th>
-      <td>37.0</td>
-      <td>758.0</td>
-      <td>205.0</td>
-      <td>794.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>999.0</td>
       <td>197.4</td>
     </tr>
     <tr>
       <th>1975</th>
-      <td>37.0</td>
-      <td>758.0</td>
-      <td>205.0</td>
-      <td>794.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>999.0</td>
       <td>197.5</td>
     </tr>
     <tr>
       <th>1976</th>
-      <td>37.0</td>
-      <td>758.0</td>
-      <td>205.0</td>
-      <td>794.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>999.0</td>
       <td>197.6</td>
     </tr>
     <tr>
       <th>1977</th>
-      <td>37.0</td>
-      <td>758.0</td>
-      <td>205.0</td>
-      <td>794.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>999.0</td>
       <td>197.7</td>
     </tr>
     <tr>
       <th>1978</th>
-      <td>37.0</td>
-      <td>758.0</td>
-      <td>205.0</td>
-      <td>794.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>999.0</td>
       <td>197.8</td>
     </tr>
     <tr>
       <th>1979</th>
-      <td>37.0</td>
-      <td>758.0</td>
-      <td>205.0</td>
-      <td>794.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>999.0</td>
       <td>197.9</td>
     </tr>
     <tr>
       <th>1980</th>
-      <td>37.0</td>
-      <td>758.0</td>
-      <td>205.0</td>
-      <td>794.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>999.0</td>
       <td>198.0</td>
     </tr>
     <tr>
       <th>1981</th>
-      <td>37.0</td>
-      <td>758.0</td>
-      <td>205.0</td>
-      <td>794.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>999.0</td>
       <td>198.1</td>
     </tr>
     <tr>
       <th>1982</th>
-      <td>37.0</td>
-      <td>758.0</td>
-      <td>205.0</td>
-      <td>794.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>999.0</td>
       <td>198.2</td>
     </tr>
     <tr>
       <th>1983</th>
-      <td>38.0</td>
-      <td>758.0</td>
-      <td>204.0</td>
-      <td>795.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>999.0</td>
       <td>198.3</td>
     </tr>
     <tr>
       <th>1984</th>
-      <td>37.0</td>
-      <td>759.0</td>
-      <td>204.0</td>
-      <td>795.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>999.0</td>
       <td>198.4</td>
     </tr>
     <tr>
       <th>1985</th>
-      <td>36.0</td>
-      <td>760.0</td>
-      <td>204.0</td>
-      <td>795.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>999.0</td>
       <td>198.5</td>
     </tr>
     <tr>
       <th>1986</th>
-      <td>36.0</td>
-      <td>760.0</td>
-      <td>204.0</td>
-      <td>795.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>999.0</td>
       <td>198.6</td>
     </tr>
     <tr>
       <th>1987</th>
-      <td>36.0</td>
-      <td>760.0</td>
-      <td>204.0</td>
-      <td>795.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>999.0</td>
       <td>198.7</td>
     </tr>
     <tr>
       <th>1988</th>
-      <td>36.0</td>
-      <td>760.0</td>
-      <td>204.0</td>
-      <td>795.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>999.0</td>
       <td>198.8</td>
     </tr>
     <tr>
       <th>1989</th>
-      <td>35.0</td>
-      <td>761.0</td>
-      <td>204.0</td>
-      <td>795.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>999.0</td>
       <td>198.9</td>
     </tr>
     <tr>
       <th>1990</th>
-      <td>35.0</td>
-      <td>761.0</td>
-      <td>204.0</td>
-      <td>795.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>999.0</td>
       <td>199.0</td>
     </tr>
     <tr>
       <th>1991</th>
-      <td>35.0</td>
-      <td>761.0</td>
-      <td>204.0</td>
-      <td>795.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>999.0</td>
       <td>199.1</td>
     </tr>
     <tr>
       <th>1992</th>
-      <td>35.0</td>
-      <td>761.0</td>
-      <td>204.0</td>
-      <td>795.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>999.0</td>
       <td>199.2</td>
     </tr>
     <tr>
       <th>1993</th>
-      <td>34.0</td>
-      <td>762.0</td>
-      <td>204.0</td>
-      <td>795.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>999.0</td>
       <td>199.3</td>
     </tr>
     <tr>
       <th>1994</th>
-      <td>34.0</td>
-      <td>762.0</td>
-      <td>204.0</td>
-      <td>795.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>999.0</td>
       <td>199.4</td>
     </tr>
     <tr>
       <th>1995</th>
-      <td>35.0</td>
-      <td>762.0</td>
-      <td>203.0</td>
-      <td>796.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>999.0</td>
       <td>199.5</td>
     </tr>
     <tr>
       <th>1996</th>
-      <td>35.0</td>
-      <td>762.0</td>
-      <td>203.0</td>
-      <td>796.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>999.0</td>
       <td>199.6</td>
     </tr>
     <tr>
       <th>1997</th>
-      <td>35.0</td>
-      <td>762.0</td>
-      <td>203.0</td>
-      <td>796.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>999.0</td>
       <td>199.7</td>
     </tr>
     <tr>
       <th>1998</th>
-      <td>35.0</td>
-      <td>762.0</td>
-      <td>203.0</td>
-      <td>796.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>999.0</td>
       <td>199.8</td>
     </tr>
     <tr>
       <th>1999</th>
-      <td>35.0</td>
-      <td>762.0</td>
-      <td>203.0</td>
-      <td>796.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>999.0</td>
       <td>199.9</td>
     </tr>
     <tr>
       <th>2000</th>
-      <td>35.0</td>
-      <td>762.0</td>
-      <td>203.0</td>
-      <td>796.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>999.0</td>
       <td>200.0</td>
     </tr>
   </tbody>
