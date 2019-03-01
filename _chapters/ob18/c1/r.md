@@ -6,13 +6,13 @@ previouschapter:
   url: chapters/ob18/c1/intro
   title: 'Chapter 1: Introduction'
 nextchapter:
-  url: chapters/ob18/c1/julia
-  title: 'Julia'
+  url: chapters/ob18/c2/intro
+  title: 'Chapter 2: SIR'
 redirect_from:
   - 'chapters/ob18/c1/r'
 ---
 
-## Chapter 1 from Bjornstad (2018): original code in R
+## Chapter 1 from Bjornstad (2018)
 
 ### Libraries
 

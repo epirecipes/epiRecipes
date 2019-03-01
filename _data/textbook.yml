@@ -349,15 +349,30 @@ chapters:
   - class: level_2
     title: Original R code
     url: chapters/ob18/c1/r
-  - class: level_2
-    title: Julia
-    url: chapters/ob18/c1/julia
   - class: level_1
     title: 'Chapter 2: SIR'
     url: chapters/ob18/c2/intro
   - class: level_2
     title: Original R code
     url: chapters/ob18/c2/r
+  - class: level_1
+    title: 'Chapter 3: R0'
+    url: chapters/ob18/c3/intro
+  - class: level_2
+    title: Original R code
+    url: chapters/ob18/c3/r
+  - class: level_1
+    title: 'Chapter 4: FoI and age-dependent incidence'
+    url: chapters/ob18/c4/intro
+  - class: level_2
+    title: Original R code
+    url: chapters/ob18/c4/r
+  - class: level_1
+    title: 'Chapter 5: Seasonality'
+    url: chapters/ob18/c5/intro
+  - class: level_2
+    title: Original R code
+    url: chapters/ob18/c5/r
   class: level_0
   title: Bjornstad 2018
   url: chapters/ob18
